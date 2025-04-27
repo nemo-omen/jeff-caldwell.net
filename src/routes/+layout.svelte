@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '@picocss/pico';
+	import '$lib/css/main.css';
 	import type { Snippet } from 'svelte';
 
 	type Props = {
@@ -10,7 +11,7 @@
 </script>
 
 <header>
-	<nav>
+	<nav class="container">
 		<ul>
 			<li>
 				<strong>Jeff Caldwell</strong>
@@ -26,4 +27,10 @@
 <main>
 	{@render children()}
 </main>
-<footer></footer>
+<footer>
+	<section class="container">
+		<p>
+			<a href="/privacy">Privacy Policy</a>
+		</p>
+	</section>
+</footer>
