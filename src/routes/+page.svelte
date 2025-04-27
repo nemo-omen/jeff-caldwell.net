@@ -21,6 +21,10 @@
 			<p>Read my latest blog posts...</p>
 		</article>
 	</section>
+	<section>
+		<h2>New Section</h2>
+		<p>This is a new section added for additional content...</p>
+	</section>
 </div>
 
 <style>
