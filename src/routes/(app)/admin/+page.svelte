@@ -12,6 +12,4 @@
 	$inspect(user);
 </script>
 
-<div class="container">
-	<h1>Welcome back, {user.name.split(' ')[0]}!</h1>
-</div>
+<h1>Welcome back, {user.name.split(' ')[0]}!</h1>
